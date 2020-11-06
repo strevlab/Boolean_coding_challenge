@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.layover{
+    background-color:rgba(0,0,0,0.5);
+    width: 70vw;
+    height: 80vh;
+    margin: 30px auto;
+    padding: 100px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+header{
+    text-align: center;
+    color: #00dd00;
+}
+
+header>.logo{
+    width: 250px;
+}
+
+nav{
+    background-color: #00dd00;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a :hover{
+    cursor: pointer;
+}
+
+
+.scooter{
+    color: white;
+    margin-top: 20px;
+}
+
+.scooter>h2{
+    display: inline;
+    padding-left: 8px;
+}
+
+.info{
+    font-weight: 300;
+}
+
+/* inizio indicatore stato di carica */
+.battery{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.full{
+    width: 60%;
+    background-color: #1fc31e;
+}
+
+.medium{
+    width: 30%;
+    background-color: #f5b454;
+}
+
+.low{
+    width: 15%;
+    background-color: #be4141;
+}
